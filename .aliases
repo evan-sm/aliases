@@ -1,0 +1,11 @@
+### [ -f ~/.aliases ] && source ~/.aliases
+### General
+alias l="ls -lha"
+### Docker
+alias dc='docker-compose'
+alias dcup='docker-compose down && docker-compose up --build -d'
+alias dl='docker-compose logs -f --tail 50'
+alias d='docker'
+alias au='sudo apt update && sudo apt upgrade -y && sudo apt autoremove'
+### Kubernetes
+[ -f ~/.kubectl_aliases ] && source ~/.kubectl_aliases
