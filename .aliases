@@ -7,5 +7,6 @@ alias dcup='docker-compose down && docker-compose up --build -d'
 alias dl='docker-compose logs -f --tail 50'
 alias d='docker'
 alias au='sudo apt update && sudo apt upgrade -y && sudo apt autoremove'
+alias gp='git add . && git commit -m 0 && git push'
 ### Kubernetes
 [ -f ~/.kubectl_aliases ] && source ~/.kubectl_aliases
