@@ -9,4 +9,8 @@ alias d='docker'
 alias au='sudo apt update && sudo apt upgrade -y && sudo apt autoremove'
 alias gp='git add . && git commit -m 0 && git push'
 ### Kubernetes
+alias kl='kubectl logs --tail=300 -f'
 [ -f ~/.kubectl_aliases ] && source ~/.kubectl_aliases
+[ -f ~/.tkn ] && source ~/.tkn
+### Golang
+alias goo='go run *.go'
