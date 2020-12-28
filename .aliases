@@ -1,6 +1,7 @@
 ### [ -f ~/.aliases ] && source ~/.aliases
 ### General
 alias l="ls -lha"
+alias vi="vim"
 ### Docker
 alias dc='docker-compose'
 alias dcup='docker-compose down && docker-compose up --build -d'
