@@ -2,6 +2,8 @@
 ### General
 alias l="ls -lha"
 alias vi="vim"
+### Net
+alias rpi="ssh -p 969 pi@192.168.1.15"
 ### Docker
 alias dc='docker-compose'
 alias dcup='docker-compose down && docker-compose up --build -d'
